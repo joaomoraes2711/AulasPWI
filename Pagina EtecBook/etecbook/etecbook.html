@@ -21,10 +21,207 @@
         a {
             text-decoration: none;
         }
+        .card {
+            margin-top: 15px;
+            background-color: #ffffff;
+            padding: 25px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            background-image: 50%;
+            background-image: url(../img/madara.jpeg);
+            background-repeat: none;
+            text-align: center;
+            
+        }
+        .card h1{
+            font-size: 35px;
+            color: #ffffff;
+        }
+        .container {
+            max-width: 1000px;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .img-fundo {
+            position: static;
+            width: 100%;
+            height: auto;
+            border-radius: 25px;
+            text-align: center;
+        }
+        .foto {
+            position: relative;
+            width: 150px;
+            text-align: center;
+            border-radius: 50%;
+            
+        }
+        .card-postagens{
+            margin-top: 0px;
+            background-color: black;
+            padding: 25px;
+            text-align: center;
+        }
+        .barra {
+            background-color: rgb(204, 6, 6);
+            height: 20px;
+        }
+        #menu ul {
+        padding: 0px;
+        margin:0px;
+        background-color: black;
+        list-style:none;
+        height: 40px;
+        }
+        #menu ul li { display: inline; 
+        
+        }
+        
+        #menu ul li a {
+         padding: 2px 10px;
+         
+        display: inline-block;
+
+        /* visual do link */
+        background-color:black;
+        color: white;
+        text-decoration: none;
+        border-bottom: 3px solid white;
+        font-size: 25px;
+        
+        }
+        #menu ul li a:hover{
+        background-color: black;
+        color: #ff0000;
+        border-bottom:3px solid #EA0000;
+        }   
+        .dados-apresentação {
+            margin: 5px;
+            border-left: 10px solid #ff0000;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+           
+        }
+        .card-fundo {
+            margin-top: 0px;
+            background-color: black;
+            padding: 25px;
+            border-bottom-left-radius: 10px ;
+            border-bottom-right-radius: 10px ;
+        }
+        .card-apresentação {
+            margin-right: 600px;
+            background-color: white;
+            border-radius: 10px;
+            padding-bottom: 2px;
+            padding-top: 2px;
+           
+        }
+        .card-apresentação h1{
+            font-size: 35px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+        .dados-tabela{
+            padding: 10px;
+            padding-bottom: 55px;
+            padding-top: 55px;
+        }
+        .dados-tabela a{
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+        }
+        .card-pubs{
+            margin-left: 770px;
+            background-color: white;
+            margin-right: 10px;
+            border-radius: 10px;
+            margin-top: 30px;
+            padding-right: 300px;
+            padding: 30px;
+            position: absolute;
+            
+        }
+        .card-pubs h1{
+            font-size: 35px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+    
         </style>
     </head>
 
     <body>
-        
+        <div class=container>
+            <div class="card">
+                <img class="foto" src="../img/WhatsApp Image 2020-07-08 at 22.44.57.jpeg">
+                <h1 class="nome">João Vitor Moraes</h1>
+            </div>
+            <div class="barra"></div>
+            <div class="card-postagens">
+                <div id="menu">
+                    <ul>
+                        <li><a href="#">Linha do Tempo</a></li>
+                        <li><a href="#">Amigos</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Fotos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="barra"></div>
+            <div class="card-fundo">
+                <div class="card-apresentação">
+                    <h1>Apresentação</h1>
+                <div class="dados-apresentação">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="../img/school.png">
+                            </td>
+                            <td class="dados-tabela">
+                                <a>Tecnico em Desenvolvimento de Sistemas Integrado ao Ensino Medio</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="../img/github.png">
+                            </td>
+                            <td class="dados-tabela">
+                                <a href="https://github.com/joaomoraes2711" target="_blank">https://github.com/joaomoraes2711</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="../img/email.png">
+                            </td>
+                            <td class="dados-tabela">
+                                <a href="mailto:joao.moraes114@etec.sp.gov.br" target="_blank">joao.moraes114@etec.sp.gov.br</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="../img/home.png">
+                            </td>
+                            <td class="dados-tabela">
+                                <a href="https://www.google.com/search?sxsrf=ALeKk025qF-sVFMAs7kVmsgc9n5VMvQG7Q%3A1594261642346&ei=ioAGX6jnFNu75OUPo6ytwAE&q=len%C3%A7ois+paulista&oq=len%C3%A7ois&gs_lcp=CgZwc3ktYWIQAxgAMgUIABCxAzIFCAAQsQMyBQgAELEDMggIABCxAxCDATICCAAyAggAMgIIADICCAAyAggAMgIIADoECAAQRzoECCMQJzoHCAAQsQMQQzoECAAQQ1DsJli7KWDjL2gAcAF4AIABaogBsAKSAQMxLjKYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab" target="_blank">Lençois Paulista-SP</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                </div>
+                <div class="card-pubs">
+                    <h1>Publicações</h1>
+                </div>
+            </div>
+        </div>
+
+
+
+
     </body>
 </html>
